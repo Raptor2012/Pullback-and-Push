@@ -1,0 +1,48 @@
+fileFormatVersion: 2
+guid: 37c9133889e2bfc4296ead93a281acc2
+AssetOrigin:
+  serializedVersion: 1
+  productId: 116144
+  packageName: 3D Modern Menu UI
+  packageVersion: 1.3.1
+  assetPath: Assets/SlimUI/Modern Menu 1/Audio/Clicks/SFX_Click_Punch.ogg
+  uploadId: 628808
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 8
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 1
+    sampleRateOverride: 0
+    compressionFormat: 2
+    quality: 1
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides:
+    Android:
+      serializedVersion: 2
+      loadType: 0
+      sampleRateSetting: 1
+      sampleRateOverride: 0
+      compressionFormat: 2
+      quality: 1
+      conversionMode: 0
+      preloadAudioData: 1
+    iPhone:
+      serializedVersion: 2
+      loadType: 0
+      sampleRateSetting: 1
+      sampleRateOverride: 0
+      compressionFormat: 2
+      quality: 1
+      conversionMode: 0
+      preloadAudioData: 1
+  forceToMono: 1
+  normalize: 1
+  loadInBackground: 1
+  ambisonic: 0
+  3D: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

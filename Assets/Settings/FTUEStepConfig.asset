@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84176726529393b42949eaccdcb1c11a, type: 3}
+  m_Name: FTUEStepConfig
+  m_EditorClassIdentifier: Assembly-CSharp::FTUEStepConfig
+  steps:
+  - id: TapCar
+    promptText: TAP THE CAR
+    handAnim: 0
+    disableHandAnimation: 0
+    followUpDelay: 2.5
+    followUpText: Tap directly on the car to grab it!
+    secondFollowUpDelay: 4
+    secondFollowUpText: Touch the orange car to start!
+    overrideHandPosition: 1
+    handScreenX: 0.5
+    handScreenY: 0.35
+  - id: DragBack
+    promptText: DRAG BACK TO WIND UP
+    handAnim: 1
+    disableHandAnimation: 0
+    followUpDelay: 2.5
+    followUpText: "Keep dragging backward \u2014 feel the tension!"
+    secondFollowUpDelay: 4
+    secondFollowUpText: Drag further back for more power!
+    overrideHandPosition: 0
+    handScreenX: 0.5
+    handScreenY: 0.5
+  - id: Release
+    promptText: RELEASE TO LAUNCH!
+    handAnim: 2
+    disableHandAnimation: 0
+    followUpDelay: 2
+    followUpText: Lift your finger to fire the car forward!
+    secondFollowUpDelay: 0
+    secondFollowUpText: 
+    overrideHandPosition: 0
+    handScreenX: 0.5
+    handScreenY: 0.5
+  - id: SteerCar
+    promptText: STEER LEFT  /  RIGHT
+    handAnim: 5
+    disableHandAnimation: 0
+    followUpDelay: 3
+    followUpText: Tap and hold the left or right side of the screen!
+    secondFollowUpDelay: 5
+    secondFollowUpText: Hold left or right side to turn the car!
+    overrideHandPosition: 0
+    handScreenX: 0.5
+    handScreenY: 0.5
+  - id: AirborneTap
+    promptText: "CAR AIRBORNE \u2014 TAP & HOLD IT"
+    handAnim: 6
+    disableHandAnimation: 0
+    followUpDelay: 2
+    followUpText: When the car leaves the ramp, tap and HOLD it!
+    secondFollowUpDelay: 0
+    secondFollowUpText: 
+    overrideHandPosition: 1
+    handScreenX: 0.5
+    handScreenY: 0.515
+  - id: AimRelease
+    promptText: AIM THEN RELEASE AT FULL POWER
+    handAnim: 7
+    disableHandAnimation: 1
+    followUpDelay: 0
+    followUpText: 
+    secondFollowUpDelay: 0
+    secondFollowUpText: 
+    overrideHandPosition: 1
+    handScreenX: 1
+    handScreenY: 1
+  - id: SteerRagdoll
+    promptText: STEER THE RAGDOLL!
+    handAnim: 8
+    disableHandAnimation: 0
+    followUpDelay: 2.5
+    followUpText: Tap left or right side of screen to steer the character!
+    secondFollowUpDelay: 0
+    secondFollowUpText: 
+    overrideHandPosition: 0
+    handScreenX: 0.5
+    handScreenY: 0.5
+  - id: ScoreObserve
+    promptText: "NICE HIT \u2014 THAT'S YOUR SCORE!"
+    handAnim: 9
+    disableHandAnimation: 0
+    followUpDelay: 0
+    followUpText: 
+    secondFollowUpDelay: 0
+    secondFollowUpText: 
+    overrideHandPosition: 0
+    handScreenX: 0.5
+    handScreenY: 0.5
+  - id: ResetRun
+    promptText: TAP RESET TO PLAY AGAIN
+    handAnim: 10
+    disableHandAnimation: 0
+    followUpDelay: 3
+    followUpText: Hit the reset button to go again!
+    secondFollowUpDelay: 0
+    secondFollowUpText: 
+    overrideHandPosition: 1
+    handScreenX: 0.855
+    handScreenY: 0.903
